@@ -8,7 +8,7 @@ public class FileUtility {
 	
 	public String getDataFromPropertiesFile(String Key) throws IOException {
 		
-		FileInputStream fis=new FileInputStream(".\\configAppData\\1commondata.properties");
+		FileInputStream fis=new FileInputStream("./configAppData/commondata.properties");
 		Properties pObj=new Properties();
 		pObj.load(fis);
 		String data=pObj.getProperty(Key);

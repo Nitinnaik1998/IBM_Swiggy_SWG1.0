@@ -23,7 +23,7 @@ import com.swiggy.WebDriverUtility.UtilityClassObject;
 public class BaseClass {
      public FileUtility fu=new FileUtility();
      public WebDriver driver=null;
- 	public static WebDriver sdriver=null;
+ 	
 	@BeforeSuite
 	public void configBS() throws SQLException {
 		System.out.println("Connect To DB , Report config");
@@ -52,7 +52,7 @@ public class BaseClass {
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		}
-		sdriver=driver;
+		
 		UtilityClassObject.setDriver(driver);
 
 }
@@ -60,21 +60,21 @@ public class BaseClass {
 	public void configBM() throws Throwable {
 		System.out.println("Login to application");
 		String URL = fu.getDataFromPropertiesFile("Url");
+		driver.get(URL);
 	}
 	@AfterMethod
 	public void configAM() {
 		System.out.println("LogOut from application");
-		HomePage hp=new HomePage(driver);
-		hp.logout();
+		
 	}
 	
-	@AfterClass(groups= {"ST","RT"})
+	@AfterClass
 	public void configAC() {
 		System.out.println("Close the  Browser");
 		driver.quit();
 	}
 		
-	@AfterSuite(groups= {"ST","RT"})
+	@AfterSuite
 	public void configAS() throws SQLException {
 		System.out.println("Close  DB , Report backup");
 		

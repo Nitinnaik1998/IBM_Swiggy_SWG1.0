@@ -14,34 +14,4 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath="//*[name()='svg' and @width=\"40\"]")
-	private WebElement profile;
-	
-	@FindBy(xpath="//a[text()='Logout']")
-	private WebElement lgout;
-	
-	
-	@FindBy(xpath="//div[text()='Search for restaurant, item or more']")
-	private WebElement searchrest;
-	
-	
-	public WebElement getSearchrest() {
-		return searchrest;
 	}
-
-	public WebElement getProfile() {
-		return profile;
-	}
-
-	public WebElement getLgout() {
-		return lgout;
-	}
-	
-	public void logout() {
-		Actions ac=new Actions(driver);
-		ac.moveToElement(profile).perform();
-		lgout.click();
-		
-	}
-
-}

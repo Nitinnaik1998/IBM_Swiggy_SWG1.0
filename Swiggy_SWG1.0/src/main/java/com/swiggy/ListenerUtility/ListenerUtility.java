@@ -51,7 +51,7 @@ public class ListenerUtility implements ITestListener,ISuiteListener{
 		UtilityClassObject.getTest().log(Status.FAIL, "Status got failed");
 		String testName = result.getMethod().getMethodName();
 		String time = new Date().toString().replace(" ", "_").replace(":", "_");
-		TakesScreenshot tks=(TakesScreenshot)BaseClass.sdriver;
+		TakesScreenshot tks=(TakesScreenshot)UtilityClassObject.getDriver();
 		String src = tks.getScreenshotAs(OutputType.BASE64);
 		test.addScreenCaptureFromBase64String(src,testName+" "+time);
 }

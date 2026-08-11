@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriverutility {
-	public class WebdriverUtility {
+	
 		public void waitForPageToLoad(WebDriver driver) {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 			
@@ -92,5 +92,5 @@ public class WebDriverutility {
 		act.doubleClick(element).perform();
 
 	}
-}
+
 }

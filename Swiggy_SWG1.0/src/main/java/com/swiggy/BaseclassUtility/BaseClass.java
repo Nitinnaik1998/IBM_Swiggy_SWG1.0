@@ -3,7 +3,7 @@ package com.swiggy.BaseclassUtility;
 import java.sql.SQLException;
 import java.time.Duration;
 
-import org.junit.BeforeClass;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
@@ -31,7 +32,7 @@ public class BaseClass {
 	@BeforeClass
 	public void configBC() throws Throwable {
 		System.out.println("Launch Browser");
-		String BROWSER =fu.getDataFromPropertiesFile("browser");
+		String BROWSER =fu.getDataFromPropertiesFile("Browser");
 		
 		if(BROWSER.equals("chrome")) {
 			driver=new ChromeDriver();

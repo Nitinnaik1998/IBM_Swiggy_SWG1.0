@@ -14,12 +14,21 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath="/*[name()='svg' and @xmlns=\"http://www.w3.org/2000/svg\"]")
+	@FindBy(xpath="//*[name()='svg' and @width=\"40\"]")
 	private WebElement profile;
 	
 	@FindBy(xpath="//a[text()='Logout']")
 	private WebElement lgout;
 	
+	
+	@FindBy(xpath="//div[text()='Search for restaurant, item or more']")
+	private WebElement searchrest;
+	
+	
+	public WebElement getSearchrest() {
+		return searchrest;
+	}
+
 	public WebElement getProfile() {
 		return profile;
 	}

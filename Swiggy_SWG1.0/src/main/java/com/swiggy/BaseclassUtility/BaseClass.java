@@ -3,6 +3,7 @@ package com.swiggy.BaseclassUtility;
 import java.sql.SQLException;
 import java.time.Duration;
 
+import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -27,6 +28,7 @@ public class BaseClass {
 		System.out.println("Connect To DB , Report config");
 		
 	}
+	@BeforeClass
 	public void configBC() throws Throwable {
 		System.out.println("Launch Browser");
 		String BROWSER =fu.getDataFromPropertiesFile("browser");

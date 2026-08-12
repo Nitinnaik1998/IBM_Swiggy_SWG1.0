@@ -13,24 +13,17 @@ public class HomePage_Nykaa {
 		PageFactory.initElements(driver,this);
 	}
 	
-<<<<<<< HEAD:Swiggy_SWG1.0/src/main/java/com/swiggy/ObjectRepo/HomePage.java
 	@FindBy(xpath="//input[@placeholder='Search on Nykaa']")
 	private WebElement srchTxtBx;
 	public WebElement getSrchTxtBx() {
 		return srchTxtBx;
 	}
 
-	
-	
-
-	
-=======
 	@FindBy(name="search-suggestions-nykaa")
 	private WebElement searchTextField;
 	
 	public WebElement getSearchTextField() {
 		return searchTextField;
->>>>>>> master:Swiggy_SWG1.0/src/main/java/com/swiggy/ObjectRepo/HomePage_Nykaa.java
 	}
 
 }

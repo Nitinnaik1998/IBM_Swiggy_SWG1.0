@@ -12,7 +12,7 @@ import com.aventstack.extentreports.Status;
 import com.swiggy.BaseclassUtility.BaseClass;
 import com.swiggy.ListenerUtility.ListenerUtility;
 import com.swiggy.ObjectRepo.CartPage;
-import com.swiggy.ObjectRepo.HomePage;
+import com.swiggy.ObjectRepo.HomePage_Nykaa;
 import com.swiggy.ObjectRepo.ProductPage;
 import com.swiggy.WebDriverUtility.UtilityClassObject;
 import com.swiggy.WebDriverUtility.WebDriverutility;
@@ -32,7 +32,7 @@ public class SmokeTestCases extends BaseClass {
 	@Test(groups="smokeTest")
 	public void verifyProductSearch() {
 		UtilityClassObject.getTest().log(Status.INFO,"Launching the HomePage ");
-		HomePage hp = new HomePage(driver);
+		HomePage_Nykaa hp = new HomePage_Nykaa(driver);
 		UtilityClassObject.getTest().log(Status.INFO,"entering the product that needs to be searched");
 		hp.getSrchTxtBx().sendKeys("Lakhme Lipstick");
 		UtilityClassObject.getTest().log(Status.INFO,"fetching the title");
@@ -45,7 +45,7 @@ public class SmokeTestCases extends BaseClass {
 	@Test(groups="smokeTest")
 	public void verifyProductDetailsPage() {
 		UtilityClassObject.getTest().log(Status.INFO,"launching the HomePage");
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 		UtilityClassObject.getTest().log(Status.INFO,"launching the ProductPage");
 		ProductPage productPage = new ProductPage(driver);
 		UtilityClassObject.getTest().log(Status.INFO,"searching the product");
@@ -61,7 +61,7 @@ public class SmokeTestCases extends BaseClass {
 	@Test(groups="smokeTest")
 	public void verifyAddToBag() throws InterruptedException {
 		WebDriverutility wlib = new WebDriverutility();
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 
 		ProductPage productPage = new ProductPage(driver);
 		UtilityClassObject.getTest().log(Status.INFO,"searching the product");
@@ -79,7 +79,7 @@ public class SmokeTestCases extends BaseClass {
 
 	@Test(groups="smokeTest")
 	public void clickToCartIcon() throws Exception {
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 
 		ProductPage productPage = new ProductPage(driver);
 

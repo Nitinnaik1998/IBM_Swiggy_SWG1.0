@@ -19,7 +19,7 @@ import com.aventstack.extentreports.Status;
 import com.swiggy.BaseclassUtility.BaseClass;
 import com.swiggy.ListenerUtility.ListenerUtility;
 import com.swiggy.ObjectRepo.CartPage;
-import com.swiggy.ObjectRepo.HomePage;
+import com.swiggy.ObjectRepo.HomePage_Nykaa;
 import com.swiggy.ObjectRepo.ProductPage;
 import com.swiggy.WebDriverUtility.UtilityClassObject;
 import com.swiggy.WebDriverUtility.WebDriverutility;
@@ -29,7 +29,7 @@ public class IntegrationTestCases extends BaseClass {
 	@Test(groups="IntegrationTest")
 	public void verifySearchToProductDetails() {
 
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 		ProductPage productPage = new ProductPage(driver);
 
 		homePage.getSrchTxtBx().sendKeys("Lakme lipstick");
@@ -50,7 +50,7 @@ public class IntegrationTestCases extends BaseClass {
 	@Test(groups="IntegrationTest")
 	public void verifyAddToBag() {
 
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 		ProductPage productPage = new ProductPage(driver);
 
 		UtilityClassObject.getTest().log(Status.INFO, "Search product");
@@ -101,7 +101,7 @@ public class IntegrationTestCases extends BaseClass {
 	
 	@Test(groups="IntegrationTest")
 			public void clickToCartIcon() throws Exception {
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 
 		ProductPage productPage = new ProductPage(driver);
 
@@ -126,7 +126,7 @@ public class IntegrationTestCases extends BaseClass {
 	@Test(groups = "IntegrationTest")
 	public void verifySwitchBackToParentWindow() {
 
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 		ProductPage productPage = new ProductPage(driver);
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
@@ -162,7 +162,7 @@ public class IntegrationTestCases extends BaseClass {
 	@Test(groups = "IntegrationTest")
 	public void verifyScrollAndAddToBag() {
 
-		HomePage homePage = new HomePage(driver);
+		HomePage_Nykaa homePage = new HomePage_Nykaa(driver);
 		ProductPage productPage = new ProductPage(driver);
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));

@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="package1.VerifyLogo">
       <class name="package_2.TestScript3_Smoke">
       <class name="AnjaliTestCases.IntegrationTestCases">
       <class name="package_2.TestScript1_Smoke">
@@ -11,7 +12,6 @@
 
         <methods>
           <include name="configBM"/>
-          <include name="test1"/>
           <include name="configAM"/>
           <include name="configBC"/>
           <include name="configBS"/>
@@ -24,7 +24,9 @@
           <include name="verifySwitchBackToParentWindow"/>
           <include name="configAC"/>
           <include name="configAS"/>
+          <include name="verifyNykaaLogoTest"/>
         </methods>
+      </class> <!-- package1.VerifyLogo -->
       </class> <!-- AnjaliTestCases.IntegrationTestCases -->
           <include name="Verifyproductsearch"/>
           <include name="configAC"/>

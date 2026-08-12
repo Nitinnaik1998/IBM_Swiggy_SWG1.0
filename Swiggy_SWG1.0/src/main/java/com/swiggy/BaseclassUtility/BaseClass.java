@@ -17,7 +17,6 @@ import org.testng.annotations.BeforeSuite;
 
 
 import com.swiggy.FileUtility.FileUtility;
-import com.swiggy.ObjectRepo.HomePage;
 import com.swiggy.WebDriverUtility.UtilityClassObject;
 
 public class BaseClass {

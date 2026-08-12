@@ -21,6 +21,12 @@ public class SearchDetails_Nykaa {
 		return productsCount;
 	}
 	
+	@FindBy(xpath="(//button[@aria-label='View similar products'])[1]")
+	private WebElement getFirstProduct;
+	
+	public WebElement getGetFirstProduct() {
+		return getFirstProduct;
+	}
 	
 
 }

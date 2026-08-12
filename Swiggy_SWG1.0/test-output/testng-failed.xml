@@ -4,6 +4,7 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="package_2.TestScript3_Smoke">
+      <class name="AnjaliTestCases.IntegrationTestCases">
         <methods>
           <include name="configBM"/>
           <include name="configAM"/>
@@ -14,6 +15,11 @@
           <include name="configAS"/>
         </methods>
       </class> <!-- package_2.TestScript3_Smoke -->
+          <include name="verifyAddToBag"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

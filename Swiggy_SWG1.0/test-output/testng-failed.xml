@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package_2.TestScript1_Smoke">
+      <class name="package1.NykaTest">
         <methods>
           <include name="configBM"/>
+          <include name="test1"/>
           <include name="configAM"/>
           <include name="configBC"/>
           <include name="configBS"/>
-          <include name="Verifyproductsearch"/>
           <include name="configAC"/>
           <include name="configAS"/>
         </methods>
-      </class> <!-- package_2.TestScript1_Smoke -->
+      </class> <!-- package1.NykaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

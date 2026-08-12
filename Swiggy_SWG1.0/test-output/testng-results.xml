@@ -1,74 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2026-08-12T12:16:23 IST" name="Default suite" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
+  <suite started-at="2026-08-12T14:36:52 IST" name="Default suite" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
     <groups>
     </groups>
-    <test started-at="2026-08-12T12:16:23 IST" name="Default test" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
+    <test started-at="2026-08-12T14:36:52 IST" name="Default test" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
       <class name="package1.NykaTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:23 IST" name="configBS" finished-at="2026-08-12T12:16:23 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:36:52 IST" name="configBS" finished-at="2026-08-12T14:36:52 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:23 IST" name="configBC" finished-at="2026-08-12T12:16:36 IST" duration-ms="13345" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:36:52 IST" name="configBC" finished-at="2026-08-12T14:36:58 IST" duration-ms="6546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:36 IST" name="configBM" finished-at="2026-08-12T12:16:48 IST" duration-ms="11864" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:36:58 IST" name="configBM" finished-at="2026-08-12T14:37:06 IST" duration-ms="7289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="test1()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:48 IST" name="test1" finished-at="2026-08-12T12:16:52 IST" duration-ms="3807" status="PASS">
+        <test-method signature="test2()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:06 IST" name="test2" finished-at="2026-08-12T14:37:08 IST" duration-ms="2737" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:52 IST" name="configAM" finished-at="2026-08-12T12:16:52 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:52 IST" name="configAC" finished-at="2026-08-12T12:16:53 IST" duration-ms="914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:53 IST" name="configAS" finished-at="2026-08-12T12:16:53 IST" duration-ms="1" status="PASS">
-=======
-  <suite started-at="2026-08-12T11:03:30 IST" name="Default suite" finished-at="2026-08-12T11:04:00 IST" duration-ms="30283">
-    <groups>
-    </groups>
-    <test started-at="2026-08-12T11:03:30 IST" name="Default test" finished-at="2026-08-12T11:04:00 IST" duration-ms="30283">
-      <class name="package_2.TestScript1_Smoke">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:30 IST" name="configBS" finished-at="2026-08-12T11:03:30 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:30 IST" name="configBC" finished-at="2026-08-12T11:03:33 IST" duration-ms="3347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:33 IST" name="configBM" finished-at="2026-08-12T11:03:47 IST" duration-ms="13942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="Verifyproductsearch()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:47 IST" name="Verifyproductsearch" finished-at="2026-08-12T11:03:59 IST" duration-ms="11565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifyproductsearch -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:59 IST" name="configAM" finished-at="2026-08-12T11:03:59 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:08 IST" name="configAM" finished-at="2026-08-12T14:37:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:03:59 IST" name="configAC" finished-at="2026-08-12T11:04:00 IST" duration-ms="1253" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:08 IST" name="configAC" finished-at="2026-08-12T14:37:09 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript1_Smoke@77c2494c]" started-at="2026-08-12T11:04:00 IST" name="configAS" finished-at="2026-08-12T11:04:00 IST" duration-ms="1" status="PASS">
->>>>>>> dc9b72215136bd07f667187ae0274c90255c55b6
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:10 IST" name="configAS" finished-at="2026-08-12T14:37:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- package_2.TestScript1_Smoke -->
+      </class> <!-- package1.NykaTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

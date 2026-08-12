@@ -3,17 +3,42 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <class name="AnjaliTestCases.IntegrationTestCases">
+=======
+      <class name="package_2.TestScript1_Smoke">
+>>>>>>> master
+=======
       <class name="package1.NykaTest">
+>>>>>>> master
         <methods>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
           <include name="configBS"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+          <include name="verifyScrollAndAddToBag"/>
+          <include name="verifySwitchBackToParentWindow"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
+=======
+          <include name="Verifyproductsearch"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- package_2.TestScript1_Smoke -->
+>>>>>>> master
+=======
           <include name="configAC"/>
           <include name="configAS"/>
           <include name="test3"/>
         </methods>
       </class> <!-- package1.NykaTest -->
+>>>>>>> master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

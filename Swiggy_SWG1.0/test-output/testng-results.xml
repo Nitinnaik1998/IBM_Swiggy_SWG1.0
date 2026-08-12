@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -7,28 +8,63 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
 <testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
   <suite started-at="2026-08-12T14:46:37 IST" name="Default suite" finished-at="2026-08-12T14:47:57 IST" duration-ms="79570">
-=======
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-=======
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
->>>>>>> master
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
+  <suite started-at="2026-08-12T15:19:21 IST" name="Default suite" finished-at="2026-08-12T15:20:33 IST" duration-ms="71923">
+    <groups>
+    </groups>
+    <test started-at="2026-08-12T15:19:21 IST" name="Default test" finished-at="2026-08-12T15:20:33 IST" duration-ms="71923">
+      <class name="package_2.TestScript3_Smoke">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:21 IST" name="configBS" finished-at="2026-08-12T15:19:21 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:22 IST" name="configBC" finished-at="2026-08-12T15:19:25 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:25 IST" name="configBM" finished-at="2026-08-12T15:20:25 IST" duration-ms="60751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="VerifyProductSorting()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:25 IST" name="VerifyProductSorting" finished-at="2026-08-12T15:20:32 IST" duration-ms="6681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductSorting -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAM" finished-at="2026-08-12T15:20:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAC" finished-at="2026-08-12T15:20:33 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:33 IST" name="configAS" finished-at="2026-08-12T15:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- package_2.TestScript3_Smoke -->
   <suite started-at="2026-08-12T14:36:52 IST" name="Default suite" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
-=======
   <suite started-at="2026-08-12T12:28:51 IST" name="Default suite" finished-at="2026-08-12T12:28:57 IST" duration-ms="6034">
   <suite started-at="2026-08-12T12:16:23 IST" name="Default suite" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
 >>>>>>> master
 >>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
     <groups>
       <group name="IntegrationTest">
         <method signature="IntegrationTestCases.clickToCartIcon()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="clickToCartIcon" class="AnjaliTestCases.IntegrationTestCases"/>
@@ -39,10 +75,13 @@
       </group> <!-- IntegrationTest -->
     </groups>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <test started-at="2026-08-12T17:02:24 IST" name="Default test" finished-at="2026-08-12T17:03:00 IST" duration-ms="35648">
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
     <test started-at="2026-08-12T14:46:37 IST" name="Default test" finished-at="2026-08-12T14:47:57 IST" duration-ms="79570">
       <class name="AnjaliTestCases.IntegrationTestCases">
         <test-method is-config="true" signature="configBS()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:37 IST" name="configBS" finished-at="2026-08-12T14:46:37 IST" duration-ms="14" status="PASS">
@@ -218,12 +257,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- AnjaliTestCases.IntegrationTestCases -->
-=======
     <test started-at="2026-08-12T12:16:23 IST" name="Default test" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
-=======
     <test started-at="2026-08-12T14:36:52 IST" name="Default test" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
+<<<<<<< HEAD
 >>>>>>> master
 >>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
       <class name="package1.NykaTest">
         <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:24 IST" name="configBS" finished-at="2026-08-12T17:02:24 IST" duration-ms="22" status="PASS">
           <reporter-output>
@@ -289,14 +329,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:03:00 IST" name="configAS" finished-at="2026-08-12T17:03:00 IST" duration-ms="0" status="PASS">
+=======
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:10 IST" name="configAS" finished-at="2026-08-12T14:37:10 IST" duration-ms="1" status="PASS">
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- package1.NykaTest -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
         <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:53 IST" name="configAS" finished-at="2026-08-12T12:16:53 IST" duration-ms="1" status="PASS">
   <suite started-at="2026-08-12T11:03:30 IST" name="Default suite" finished-at="2026-08-12T11:04:00 IST" duration-ms="30283"
     <groups>
@@ -337,11 +384,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- configAS -->
       </class> <!-- package1.Homepage -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 >>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
 >>>>>>> master
 >>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

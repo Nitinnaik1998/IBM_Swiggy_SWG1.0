@@ -62,5 +62,25 @@ public class NykaTest extends BaseClass{
     	driver.findElement(By.xpath("//h2[text()='LANEIGE Lip Glowy Balm']/ancestor::div[@class='productWrapper css-17nge1h']/descendant::button[@class='css-iyqsry']")).click();
 	    System.out.println("added");
 	}
-	
+	@Test
+	public void test4() {
+		WebElement Luxe = driver.findElement(By.xpath("//a[text()='luxe']"));
+    	Actions ac=new Actions(driver); 
+    	ac.moveToElement(Luxe).perform();
+    	driver.findElement(By.xpath("//a[contains(text(),'                       Lip Balm')]")).click();
+    	Set<String> allwindow = driver.getWindowHandles();
+    	for( String id : allwindow) {
+    		
+    		@Nullable
+			String title = driver.getTitle();
+    		if(title.contains("Lip Balm"));
+    		driver.switchTo().window(id);
+    	}
+    	ac.scrollByAmount(0, 250).perform();
+    	WebElement CLICK = driver.findElement(By.xpath("//h2[text()='LANEIGE Lip Glowy Balm']"));
+    	ac.moveToElement(CLICK).perform();
+    	
+    	driver.findElement(By.xpath("//h2[text()='LANEIGE Lip Glowy Balm']/ancestor::div[@class='productWrapper css-17nge1h']/descendant::button[@class='css-iyqsry']")).click();
+	    System.out.println("added");
+	}
 }

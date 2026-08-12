@@ -14,4 +14,14 @@ public class HomePage {
 		PageFactory.initElements(driver,this);
 	}
 	
+	@FindBy(xpath="//input[@placeholder='Search on Nykaa']")
+	private WebElement srchTxtBx;
+	public WebElement getSrchTxtBx() {
+		return srchTxtBx;
+	}
+
+	
+	
+
+	
 	}

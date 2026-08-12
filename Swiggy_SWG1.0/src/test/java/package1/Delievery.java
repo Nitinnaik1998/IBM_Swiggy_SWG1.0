@@ -1,8 +1,12 @@
 package package1;
 
-public class Delievery {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+import com.swiggy.BaseclassUtility.BaseClass;
+
+public class Delievery extends BaseClass {
+@Test
+	public  void main() {
 		// TODO Auto-generated method stub
 System.out.println("abch");
 	}

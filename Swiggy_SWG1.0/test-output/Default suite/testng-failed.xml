@@ -6,12 +6,12 @@
       <class name="package1.NykaTest">
         <methods>
           <include name="configBM"/>
-          <include name="test1"/>
           <include name="configAM"/>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
+          <include name="test3"/>
         </methods>
       </class> <!-- package1.NykaTest -->
     </classes>

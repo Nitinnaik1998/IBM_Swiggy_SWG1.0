@@ -13,5 +13,6 @@ public class NykaTest extends BaseClass{
     	Actions ac=new Actions(driver); 
     	ac.moveToElement(Luxe).perform();
     	driver.findElement(By.xpath("//a[contains(text(),'                       Lip Balm')]")).click();
+    	System.out.println("done sucessfully");
     }
 }

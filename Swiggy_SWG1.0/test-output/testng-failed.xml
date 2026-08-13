@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="package_2.TestScript3_Smoke">
+      <class name="AnjaliTestCases.IntegrationTestCases">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="VerifyProductSorting"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- package_2.TestScript3_Smoke -->
+          <include name="verifyAddToBag"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

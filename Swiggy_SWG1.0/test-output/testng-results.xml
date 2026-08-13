@@ -1,402 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-12T17:02:24 IST" name="Default suite" finished-at="2026-08-12T17:03:00 IST" duration-ms="35648">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
-=======
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-08-12T16:56:49 IST" name="Default suite" finished-at="2026-08-12T16:56:56 IST" duration-ms="7496">
->>>>>>> 53d03e309b6d6f04e42eea557b80ef4627adb663
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-08-12T14:46:37 IST" name="Default suite" finished-at="2026-08-12T14:47:57 IST" duration-ms="79570">
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-08-12T15:19:21 IST" name="Default suite" finished-at="2026-08-12T15:20:33 IST" duration-ms="71923">
+  <suite started-at="2026-08-13T13:36:39 IST" name="Default suite" finished-at="2026-08-13T13:37:04 IST" duration-ms="24868">
     <groups>
     </groups>
-    <test started-at="2026-08-12T15:19:21 IST" name="Default test" finished-at="2026-08-12T15:20:33 IST" duration-ms="71923">
-      <class name="package_2.TestScript3_Smoke">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:21 IST" name="configBS" finished-at="2026-08-12T15:19:21 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:22 IST" name="configBC" finished-at="2026-08-12T15:19:25 IST" duration-ms="3153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:25 IST" name="configBM" finished-at="2026-08-12T15:20:25 IST" duration-ms="60751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="VerifyProductSorting()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:25 IST" name="VerifyProductSorting" finished-at="2026-08-12T15:20:32 IST" duration-ms="6681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProductSorting -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAM" finished-at="2026-08-12T15:20:32 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAC" finished-at="2026-08-12T15:20:33 IST" duration-ms="1198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:33 IST" name="configAS" finished-at="2026-08-12T15:20:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- package_2.TestScript3_Smoke -->
-  <suite started-at="2026-08-12T14:36:52 IST" name="Default suite" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
-  <suite started-at="2026-08-12T12:28:51 IST" name="Default suite" finished-at="2026-08-12T12:28:57 IST" duration-ms="6034">
-  <suite started-at="2026-08-12T12:16:23 IST" name="Default suite" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
->>>>>>> master
->>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
-=======
-
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
-    <groups>
-      <group name="IntegrationTest">
-        <method signature="IntegrationTestCases.clickToCartIcon()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="clickToCartIcon" class="AnjaliTestCases.IntegrationTestCases"/>
-        <method signature="IntegrationTestCases.verifyAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifyAddToBag" class="AnjaliTestCases.IntegrationTestCases"/>
-        <method signature="IntegrationTestCases.verifyScrollAndAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifyScrollAndAddToBag" class="AnjaliTestCases.IntegrationTestCases"/>
-        <method signature="IntegrationTestCases.verifySearchToProductDetails()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifySearchToProductDetails" class="AnjaliTestCases.IntegrationTestCases"/>
-        <method signature="IntegrationTestCases.verifySwitchBackToParentWindow()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifySwitchBackToParentWindow" class="AnjaliTestCases.IntegrationTestCases"/>
-      </group> <!-- IntegrationTest -->
-    </groups>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <test started-at="2026-08-12T17:02:24 IST" name="Default test" finished-at="2026-08-12T17:03:00 IST" duration-ms="35648">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
-    <test started-at="2026-08-12T14:46:37 IST" name="Default test" finished-at="2026-08-12T14:47:57 IST" duration-ms="79570">
-      <class name="AnjaliTestCases.IntegrationTestCases">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:37 IST" name="configBS" finished-at="2026-08-12T14:46:37 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:37 IST" name="configBC" finished-at="2026-08-12T14:46:39 IST" duration-ms="1633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:39 IST" name="configBM" finished-at="2026-08-12T14:46:45 IST" duration-ms="6051" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="clickToCartIcon()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:45 IST" name="clickToCartIcon" finished-at="2026-08-12T14:46:49 IST" duration-ms="4062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickToCartIcon -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:49 IST" name="configAM" finished-at="2026-08-12T14:46:49 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:49 IST" name="configBM" finished-at="2026-08-12T14:46:51 IST" duration-ms="1923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:51 IST" name="verifyAddToBag" finished-at="2026-08-12T14:46:56 IST" duration-ms="5154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddToBag -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:56 IST" name="configAM" finished-at="2026-08-12T14:46:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:56 IST" name="configBM" finished-at="2026-08-12T14:46:58 IST" duration-ms="1732" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyScrollAndAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:46:58 IST" name="verifyScrollAndAddToBag" finished-at="2026-08-12T14:47:20 IST" duration-ms="22486" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.188, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\vikas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, goog:processID: 26856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 150.0.7871.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a68ebd92743a8546002f6ddf88c0de6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.188, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\vikas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, goog:processID: 26856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 150.0.7871.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a68ebd92743a8546002f6ddf88c0de6
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at AnjaliTestCases.IntegrationTestCases.verifyScrollAndAddToBag(IntegrationTestCases.java:176)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyScrollAndAddToBag -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:25 IST" name="configAM" finished-at="2026-08-12T14:47:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:25 IST" name="configBM" finished-at="2026-08-12T14:47:27 IST" duration-ms="1952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifySearchToProductDetails()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:27 IST" name="verifySearchToProductDetails" finished-at="2026-08-12T14:47:30 IST" duration-ms="2659" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchToProductDetails -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:30 IST" name="configAM" finished-at="2026-08-12T14:47:30 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:30 IST" name="configBM" finished-at="2026-08-12T14:47:32 IST" duration-ms="2484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifySwitchBackToParentWindow()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:32 IST" name="verifySwitchBackToParentWindow" finished-at="2026-08-12T14:47:56 IST" duration-ms="23761" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.188, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\vikas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, goog:processID: 26856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 150.0.7871.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a68ebd92743a8546002f6ddf88c0de6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.188, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\vikas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50619}, goog:processID: 26856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50619/devtoo..., se:cdpVersion: 150.0.7871.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a68ebd92743a8546002f6ddf88c0de6
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at AnjaliTestCases.IntegrationTestCases.verifySwitchBackToParentWindow(IntegrationTestCases.java:138)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySwitchBackToParentWindow -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:56 IST" name="configAM" finished-at="2026-08-12T14:47:56 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:56 IST" name="configAC" finished-at="2026-08-12T14:47:57 IST" duration-ms="452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-12T14:47:57 IST" name="configAS" finished-at="2026-08-12T14:47:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
-    <test started-at="2026-08-12T12:16:23 IST" name="Default test" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
-    <test started-at="2026-08-12T14:36:52 IST" name="Default test" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
-<<<<<<< HEAD
->>>>>>> master
->>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
-=======
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+    <test started-at="2026-08-13T13:36:39 IST" name="Default test" finished-at="2026-08-13T13:37:04 IST" duration-ms="24868">
       <class name="package1.NykaTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:24 IST" name="configBS" finished-at="2026-08-12T17:02:24 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:36:39 IST" name="configBS" finished-at="2026-08-13T13:36:39 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:24 IST" name="configBC" finished-at="2026-08-12T17:02:33 IST" duration-ms="9374" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:36:39 IST" name="configBC" finished-at="2026-08-13T13:36:44 IST" duration-ms="4820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:33 IST" name="configBM" finished-at="2026-08-12T17:02:46 IST" duration-ms="12878" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:36:44 IST" name="configBM" finished-at="2026-08-13T13:36:54 IST" duration-ms="9432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="test3()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:46 IST" name="test3" finished-at="2026-08-12T17:02:56 IST" duration-ms="9763" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<Lip Balm> but was:<[[ChromeDriver: chrome on windows (11c2faa59025aeb61ba3972f14ed119f)] -> xpath: //h1[@class='css-c0pzm0']]]]><![CDATA[>expected:<Lip Balm> but was:<[[ChromeDriver: chrome on windows (11c2faa59025aeb61ba3972f14ed119f)] -> xpath: //h1[@class='css-c0pzm0']]><![CDATA[]]]]><![CDATA[>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Lip Balm> but was:<[[ChromeDriver: chrome on windows (11c2faa59025aeb61ba3972f14ed119f)] -> xpath: //h1[@class='css-c0pzm0']]]]><![CDATA[>
-at org.junit.Assert.fail(Assert.java:93)
-at org.junit.Assert.failNotEquals(Assert.java:647)
-at org.junit.Assert.assertEquals(Assert.java:128)
-at org.junit.Assert.assertEquals(Assert.java:147)
-at package1.NykaTest.test3(NykaTest.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="test7()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:36:54 IST" name="test7" finished-at="2026-08-13T13:37:02 IST" duration-ms="8570" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:56 IST" name="configAM" finished-at="2026-08-12T17:02:56 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:37:02 IST" name="configAM" finished-at="2026-08-13T13:37:02 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:02:56 IST" name="configAC" finished-at="2026-08-12T17:03:00 IST" duration-ms="3518" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:37:02 IST" name="configAC" finished-at="2026-08-13T13:37:04 IST" duration-ms="1923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@4d1c00d0]" started-at="2026-08-12T17:03:00 IST" name="configAS" finished-at="2026-08-12T17:03:00 IST" duration-ms="0" status="PASS">
-=======
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@79079097]" started-at="2026-08-12T14:37:10 IST" name="configAS" finished-at="2026-08-12T14:37:10 IST" duration-ms="1" status="PASS">
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:37:04 IST" name="configAS" finished-at="2026-08-13T13:37:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- package1.NykaTest -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:53 IST" name="configAS" finished-at="2026-08-12T12:16:53 IST" duration-ms="1" status="PASS">
-  <suite started-at="2026-08-12T11:03:30 IST" name="Default suite" finished-at="2026-08-12T11:04:00 IST" duration-ms="30283"
-    <groups>
-    </groups>
-    <test started-at="2026-08-12T16:56:49 IST" name="Default test" finished-at="2026-08-12T16:56:56 IST" duration-ms="7496">
-      <class name="package1.VerifyLogo">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:49 IST" name="configBS" finished-at="2026-08-12T16:56:49 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:49 IST" name="configBC" finished-at="2026-08-12T16:56:51 IST" duration-ms="1666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:51 IST" name="configBM" finished-at="2026-08-12T16:56:54 IST" duration-ms="3540" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyNykaaLogoTest()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:54 IST" name="verifyNykaaLogoTest" finished-at="2026-08-12T16:56:56 IST" duration-ms="1764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNykaaLogoTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:56 IST" name="configAM" finished-at="2026-08-12T16:56:56 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:56 IST" name="configAC" finished-at="2026-08-12T16:56:56 IST" duration-ms="463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:57 IST" name="configAS" finished-at="2026-08-12T16:56:57 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- package1.VerifyLogo -->
-      </class> <!-- package1.Homepage -->
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
->>>>>>> master
->>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
-=======
-
->>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

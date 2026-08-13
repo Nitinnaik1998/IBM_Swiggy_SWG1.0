@@ -3,42 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <class name="AnjaliTestCases.IntegrationTestCases">
-=======
-      <class name="package_2.TestScript1_Smoke">
->>>>>>> master
-=======
-      <class name="package1.NykaTest">
->>>>>>> master
+      <class name="AnjaliTestCases.EndToEndTestCases">
         <methods>
+          <include name="verifyCompleteCustomerShoppingJourney"/>
           <include name="configBM"/>
-          <include name="test1"/>
           <include name="configAM"/>
           <include name="configBC"/>
-          <include name="configBS"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <include name="verifyScrollAndAddToBag"/>
+          <include name="verifyIncreaseProductQuantity"/>
           <include name="verifySwitchBackToParentWindow"/>
+          <include name="verifySearchToCartFlow"/>
           <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="verifyCartAfterPageRefresh"/>
+          <include name="verifyChildWindow"/>
+          <include name="verifyCompleteShoppingBagFlow"/>
           <include name="configAS"/>
+          <include name="verifyOpenCartAfterAddingProduct"/>
         </methods>
-      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
-=======
-          <include name="Verifyproductsearch"/>
-          <include name="configAC"/>
-          <include name="configAS"/>
-        </methods>
-      </class> <!-- package_2.TestScript1_Smoke -->
->>>>>>> master
-=======
-          <include name="configAC"/>
-          <include name="configAS"/>
-        </methods>
-      </class> <!-- package1.NykaTest -->
->>>>>>> master
+      </class> <!-- AnjaliTestCases.EndToEndTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

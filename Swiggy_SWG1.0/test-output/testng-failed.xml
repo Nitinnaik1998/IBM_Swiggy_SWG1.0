@@ -3,17 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AnjaliTestCases.IntegrationTestCases">
+      <class name="AnjaliTestCases.EndToEndTestCases">
         <methods>
+          <include name="verifyCompleteCustomerShoppingJourney"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
-          <include name="configBS"/>
-          <include name="verifyAddToBag"/>
+          <include name="verifyIncreaseProductQuantity"/>
+          <include name="verifySwitchBackToParentWindow"/>
+          <include name="verifySearchToCartFlow"/>
           <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="verifyCartAfterPageRefresh"/>
+          <include name="verifyChildWindow"/>
+          <include name="verifyCompleteShoppingBagFlow"/>
           <include name="configAS"/>
+          <include name="verifyOpenCartAfterAddingProduct"/>
         </methods>
-      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
+      </class> <!-- AnjaliTestCases.EndToEndTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -22,7 +23,16 @@ public class WebDriverutility {
 			wait.until(ExpectedConditions.visibilityOf(element));
 			
 		}
-		
+		public WebElement waitForElementToClickable(WebDriver driver, WebElement element) {
+			WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(20));
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+			return element;
+		}
+		public void noOfWindows(WebDriver driver, int n) {
+			WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(20));
+			wait.until(ExpectedConditions.numberOfWindowsToBe(n));
+			
+		}
 		public void switchtoTabonUrl(WebDriver driver,String partialUrl) {
 			Set<String> set = driver.getWindowHandles();
 			   Iterator<String> it = set.iterator();
@@ -38,6 +48,25 @@ public class WebDriverutility {
 		        }
 			   }
 		     }
+		public String fetchingParentWindow(WebDriver driver)
+		{
+			String parentId=driver.getWindowHandle();
+			return parentId;
+		}
+		public void switchingToChildWindow(WebDriver driver)
+		{
+			 String parentWindow = driver.getWindowHandle();
+
+			    Set<String> allWindows = driver.getWindowHandles();
+
+			    for (String window : allWindows) {
+
+			        if (!window.equals(parentWindow)) {
+			            driver.switchTo().window(window);
+			            break;
+			        }
+			    }
+		}
 		public void switchtoTabonTitle(WebDriver driver,String partialtitle) {
 			Set<String> set = driver.getWindowHandles();
 			   Iterator<String> it = set.iterator();
@@ -85,6 +114,12 @@ public class WebDriverutility {
 	public void mouseMoveOnElement(WebDriver driver,WebElement element) {
 		Actions act= new Actions(driver);
 		act.moveToElement(element).perform();
+		}
+
+		public void scrollIntoViewUsingJavaScript(WebDriver driver, WebElement element) {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+
+			js.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 		}
 
 	public void doubleClick(WebDriver driver,WebElement element) {

@@ -21,11 +21,13 @@ public class SearchDetails_Nykaa {
 		return productsCount;
 	}
 
-	@FindBy(xpath = "(//button[@aria-label='View similar products'])[1]")
-	private WebElement getFirstProduct;
-
-	public WebElement getGetFirstProduct() {
-		return getFirstProduct;
+	@FindBy(xpath= "(//div[@data-at='product-title'])[1]")
+	private WebElement FirstProduct;
+    
+	
+	
+	public WebElement getFirstProduct() {
+		return FirstProduct;
 	}
 
 	@FindBy(xpath = "//button[@class='css-bigugj']")
@@ -41,5 +43,22 @@ public class SearchDetails_Nykaa {
 	public WebElement getLowtoHigh() {
 		return lowtoHigh;
 	}
+    
+	@FindBy(xpath="//div[text()='Size']")
+	private WebElement size;
 
+	public WebElement getSize() {
+		return size;
+	}
+	
+	@FindBy(xpath="//div[contains(text(),'Unfortunately')]")
+	private WebElement noResults;
+
+	public WebElement getNoResults() {
+		return noResults;
+	}
+	
+	
+	
+	
 }

@@ -1,11 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-13T11:59:56 IST" name="Default suite" finished-at="2026-08-13T12:00:29 IST" duration-ms="33210">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+>>>>>>> 47c0e34efb56bbda7459fdcfa7ad803c226640ae
   <reporter-output>
   </reporter-output>
   <suite started-at="2026-08-13T13:36:39 IST" name="Default suite" finished-at="2026-08-13T13:37:04 IST" duration-ms="24868">
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2026-08-13T13:36:39 IST" name="Default test" finished-at="2026-08-13T13:37:04 IST" duration-ms="24868">
+=======
+    <test started-at="2026-08-12T15:19:21 IST" name="Default test" finished-at="2026-08-12T15:20:33 IST" duration-ms="71923">
+      <class name="package_2.TestScript3_Smoke">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:21 IST" name="configBS" finished-at="2026-08-12T15:19:21 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:22 IST" name="configBC" finished-at="2026-08-12T15:19:25 IST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:19:25 IST" name="configBM" finished-at="2026-08-12T15:20:25 IST" duration-ms="60751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="VerifyProductSorting()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:25 IST" name="VerifyProductSorting" finished-at="2026-08-12T15:20:32 IST" duration-ms="6681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductSorting -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAM" finished-at="2026-08-12T15:20:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:32 IST" name="configAC" finished-at="2026-08-12T15:20:33 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript3_Smoke@77c2494c]" started-at="2026-08-12T15:20:33 IST" name="configAS" finished-at="2026-08-12T15:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- package_2.TestScript3_Smoke -->
+  <suite started-at="2026-08-12T14:36:52 IST" name="Default suite" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
+  <suite started-at="2026-08-12T12:28:51 IST" name="Default suite" finished-at="2026-08-12T12:28:57 IST" duration-ms="6034">
+  <suite started-at="2026-08-12T12:16:23 IST" name="Default suite" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
+>>>>>>> master
+>>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+>>>>>>> master
+    <groups>
+      <group name="IntegrationTest">
+        <method signature="IntegrationTestCases.clickToCartIcon()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="clickToCartIcon" class="AnjaliTestCases.IntegrationTestCases"/>
+        <method signature="IntegrationTestCases.verifyAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifyAddToBag" class="AnjaliTestCases.IntegrationTestCases"/>
+        <method signature="IntegrationTestCases.verifyScrollAndAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifyScrollAndAddToBag" class="AnjaliTestCases.IntegrationTestCases"/>
+        <method signature="IntegrationTestCases.verifySearchToProductDetails()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifySearchToProductDetails" class="AnjaliTestCases.IntegrationTestCases"/>
+        <method signature="IntegrationTestCases.verifySwitchBackToParentWindow()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" name="verifySwitchBackToParentWindow" class="AnjaliTestCases.IntegrationTestCases"/>
+      </group> <!-- IntegrationTest -->
+    </groups>
+<<<<<<< HEAD
+    <test started-at="2026-08-13T11:59:56 IST" name="Default test" finished-at="2026-08-13T12:00:29 IST" duration-ms="33210">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <test started-at="2026-08-12T17:02:24 IST" name="Default test" finished-at="2026-08-12T17:03:00 IST" duration-ms="35648">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+    <test started-at="2026-08-12T14:46:37 IST" name="Default test" finished-at="2026-08-12T14:47:57 IST" duration-ms="79570">
+>>>>>>> master
+      <class name="AnjaliTestCases.IntegrationTestCases">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T11:59:56 IST" name="configBS" finished-at="2026-08-13T11:59:56 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T11:59:56 IST" name="configBC" finished-at="2026-08-13T11:59:58 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T11:59:58 IST" name="configBM" finished-at="2026-08-13T12:00:03 IST" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="clickToCartIcon()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:03 IST" name="clickToCartIcon" finished-at="2026-08-13T12:00:08 IST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToCartIcon -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:08 IST" name="configAM" finished-at="2026-08-13T12:00:08 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:08 IST" name="configBM" finished-at="2026-08-13T12:00:09 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:09 IST" name="verifyAddToBag" finished-at="2026-08-13T12:00:14 IST" duration-ms="5258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToBag -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:14 IST" name="configAM" finished-at="2026-08-13T12:00:15 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:15 IST" name="configBM" finished-at="2026-08-13T12:00:16 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyScrollAndAddToBag()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:16 IST" name="verifyScrollAndAddToBag" finished-at="2026-08-13T12:00:22 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScrollAndAddToBag -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:22 IST" name="configAM" finished-at="2026-08-13T12:00:22 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:22 IST" name="configBM" finished-at="2026-08-13T12:00:23 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifySearchToProductDetails()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:23 IST" name="verifySearchToProductDetails" finished-at="2026-08-13T12:00:25 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchToProductDetails -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:25 IST" name="configAM" finished-at="2026-08-13T12:00:26 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:26 IST" name="configBM" finished-at="2026-08-13T12:00:26 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifySwitchBackToParentWindow()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:26 IST" name="verifySwitchBackToParentWindow" finished-at="2026-08-13T12:00:29 IST" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySwitchBackToParentWindow -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:29 IST" name="configAM" finished-at="2026-08-13T12:00:29 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:29 IST" name="configAC" finished-at="2026-08-13T12:00:29 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:AnjaliTestCases.IntegrationTestCases@6ed3ccb2]" started-at="2026-08-13T12:00:29 IST" name="configAS" finished-at="2026-08-13T12:00:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
+<<<<<<< HEAD
+=======
+    <test started-at="2026-08-12T12:16:23 IST" name="Default test" finished-at="2026-08-12T12:16:53 IST" duration-ms="30011">
+    <test started-at="2026-08-12T14:36:52 IST" name="Default test" finished-at="2026-08-12T14:37:09 IST" duration-ms="17806">
+<<<<<<< HEAD
+>>>>>>> master
+>>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+>>>>>>> 47c0e34efb56bbda7459fdcfa7ad803c226640ae
       <class name="package1.NykaTest">
         <test-method is-config="true" signature="configBS()[pri:0, instance:package1.NykaTest@26794848]" started-at="2026-08-13T13:36:39 IST" name="configBS" finished-at="2026-08-13T13:36:39 IST" duration-ms="51" status="PASS">
           <reporter-output>
@@ -36,6 +206,62 @@
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- package1.NykaTest -->
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.NykaTest@3857f613]" started-at="2026-08-12T12:16:53 IST" name="configAS" finished-at="2026-08-12T12:16:53 IST" duration-ms="1" status="PASS">
+  <suite started-at="2026-08-12T11:03:30 IST" name="Default suite" finished-at="2026-08-12T11:04:00 IST" duration-ms="30283"
+    <groups>
+    </groups>
+    <test started-at="2026-08-12T16:56:49 IST" name="Default test" finished-at="2026-08-12T16:56:56 IST" duration-ms="7496">
+      <class name="package1.VerifyLogo">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:49 IST" name="configBS" finished-at="2026-08-12T16:56:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:49 IST" name="configBC" finished-at="2026-08-12T16:56:51 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:51 IST" name="configBM" finished-at="2026-08-12T16:56:54 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyNykaaLogoTest()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:54 IST" name="verifyNykaaLogoTest" finished-at="2026-08-12T16:56:56 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNykaaLogoTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:56 IST" name="configAM" finished-at="2026-08-12T16:56:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:56 IST" name="configAC" finished-at="2026-08-12T16:56:56 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package1.VerifyLogo@662ac478]" started-at="2026-08-12T16:56:57 IST" name="configAS" finished-at="2026-08-12T16:56:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- package1.VerifyLogo -->
+      </class> <!-- package1.Homepage -->
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> 7cce1c83a4e3d3fbd58bc7c40d7bf5a0b03cc129
+>>>>>>> master
+>>>>>>> d7fb96b6ca1d5e8db6df741e7f254e2d1b74021a
+=======
+
+>>>>>>> aa8a969ebe5f7e04a76940dd3ed86727c22c0b72
+>>>>>>> master
+>>>>>>> 47c0e34efb56bbda7459fdcfa7ad803c226640ae
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

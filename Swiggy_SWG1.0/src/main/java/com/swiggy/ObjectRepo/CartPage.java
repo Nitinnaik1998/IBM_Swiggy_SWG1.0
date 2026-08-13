@@ -26,4 +26,15 @@ public class CartPage {
     public WebElement getshpbag() {
 		return shpbag;
 }
+    @FindBy(xpath="//button[@data-test-id=\"product-quantity-dropdown\"]/*[local-name()='svg' ]")
+    private WebElement dropdwnBtn;
+
+    public WebElement getdropdwnBtn() {
+        return dropdwnBtn;
+    }
+    @FindBy(xpath="//label[@label='2']")
+private WebElement IncreaseQty;
+    public WebElement getIncreaseQty() {
+        return IncreaseQty;
+    }
 }

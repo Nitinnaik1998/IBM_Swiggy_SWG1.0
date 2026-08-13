@@ -26,7 +26,7 @@ public class TestScript3_Smoke extends BaseClass {
 		SearchDetails_Nykaa sdn = new SearchDetails_Nykaa(driver);
 
 		// Verify products are displayed
-		Assert.assertTrue(sdn.getGetFirstProduct().isDisplayed(), "Products are not displayed");
+		Assert.assertTrue(sdn.getFirstProduct().isDisplayed(), "Products are not displayed");
 
 		Actions action = new Actions(driver);
 		action.moveToElement(sdn.getSortBy()).perform();

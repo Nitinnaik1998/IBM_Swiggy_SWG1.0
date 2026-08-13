@@ -3,29 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="package1.VerifyLogo">
-      <class name="package_2.TestScript3_Smoke">
-      <class name="AnjaliTestCases.IntegrationTestCases">
+      <class name="AnjaliTestCases.EndToEndTestCases">
         <methods>
+          <include name="verifyCompleteCustomerShoppingJourney"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
+          <include name="verifyIncreaseProductQuantity"/>
+          <include name="verifySwitchBackToParentWindow"/>
+          <include name="verifySearchToCartFlow"/>
+          <include name="configAC"/>
           <include name="configBS"/>
-          <include name="VerifyProductSorting"/>
-          <include name="configAC"/>
+          <include name="verifyCartAfterPageRefresh"/>
+          <include name="verifyChildWindow"/>
+          <include name="verifyCompleteShoppingBagFlow"/>
           <include name="configAS"/>
+          <include name="verifyOpenCartAfterAddingProduct"/>
         </methods>
-      </class> <!-- package_2.TestScript3_Smoke -->
-          <include name="verifyAddToBag"/>
-          <include name="configAC"/>
-          <include name="configAS"/>
-<<<<<<< HEAD
-          <include name="test3"/>
-=======
-          <include name="verifyNykaaLogoTest"/>
->>>>>>> 53d03e309b6d6f04e42eea557b80ef4627adb663
-        </methods>
-      </class> <!-- package1.VerifyLogo -->
+      </class> <!-- AnjaliTestCases.EndToEndTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

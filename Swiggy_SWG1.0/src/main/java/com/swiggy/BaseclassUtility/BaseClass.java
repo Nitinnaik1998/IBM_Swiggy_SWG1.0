@@ -63,7 +63,21 @@ public class BaseClass {
 	}
 	@AfterMethod
 	public void configAM() {
+		String parent = driver.getWindowHandles()
+                .iterator()
+                .next();
+
+for (String window : driver.getWindowHandles()) {
+
+if (!window.equals(parent)) {
+ driver.switchTo().window(window);
+ driver.close();
+}
+}
+
+driver.switchTo().window(parent);
 		System.out.println("LogOut from application");
+		
 		
 	}
 	

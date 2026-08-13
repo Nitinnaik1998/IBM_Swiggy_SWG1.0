@@ -14,7 +14,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.swiggy.BaseclassUtility.BaseClass;
 import com.swiggy.WebDriverUtility.UtilityClassObject;
 
 
@@ -53,7 +52,7 @@ public class ListenerUtility implements ITestListener,ISuiteListener{
 		String time = new Date().toString().replace(" ", "_").replace(":", "_");
 		TakesScreenshot tks=(TakesScreenshot)UtilityClassObject.getDriver();
 		String src = tks.getScreenshotAs(OutputType.BASE64);
-		test.addScreenCaptureFromBase64String(src,testName+" "+time);
+		UtilityClassObject.getTest().addScreenCaptureFromBase64String(src,testName+" "+time);
 }
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("====="+result.getMethod().getMethodName()+"====END=====");

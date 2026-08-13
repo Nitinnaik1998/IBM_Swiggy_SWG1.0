@@ -21,6 +21,7 @@ public class TestScript2_Smoke extends BaseClass {
 
     js.executeScript("arguments[0].click();",
             sdn.getGetFirstProduct());
+            sdn.getFirstProduct());
     
     SimilarProductDetails_Nykaa pdn = new SimilarProductDetails_Nykaa(driver);
 

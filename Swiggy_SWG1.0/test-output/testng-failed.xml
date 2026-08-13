@@ -4,16 +4,34 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="package_2.TestScript2_Smoke">
+      <class name="package1.NykaTest">
+      <class name="AnjaliTestCases.EndToEndTestCases">
+
         <methods>
+          <include name="verifyCompleteCustomerShoppingJourney"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
+          <include name="verifyIncreaseProductQuantity"/>
+          <include name="verifySwitchBackToParentWindow"/>
+          <include name="verifySearchToCartFlow"/>
+          <include name="configAC"/>
           <include name="configBS"/>
           <include name="VerifySimilarProducts"/>
+          <include name="test7"/>
           <include name="configAC"/>
+
+          <include name="verifyCartAfterPageRefresh"/>
+          <include name="verifyChildWindow"/>
+          <include name="verifyCompleteShoppingBagFlow"/>
+
           <include name="configAS"/>
+          <include name="verifyOpenCartAfterAddingProduct"/>
         </methods>
       </class> <!-- package_2.TestScript2_Smoke -->
+      </class> <!-- package1.NykaTest -->
+      </class> <!-- AnjaliTestCases.EndToEndTestCases -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

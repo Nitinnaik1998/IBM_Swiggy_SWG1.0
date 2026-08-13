@@ -6,18 +6,38 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_Nykaa {
-	
+
 	WebDriver driver;
+
 	public HomePage_Nykaa(WebDriver driver) {
-		this.driver=driver;
-		PageFactory.initElements(driver,this);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
+
+
+	@FindBy(name = "search-suggestions-nykaa")
+=======
 	
+	@FindBy(xpath="//input[@placeholder='Search on Nykaa']")
+	private WebElement srchTxtBx;
+	public WebElement getSrchTxtBx() {
+		return srchTxtBx;
+	}
+
 	@FindBy(name="search-suggestions-nykaa")
+>>>>>>> branch 'TestScript3_Smoke' of https://github.com/Nitinnaik1998/IBM_Swiggy_SWG1.0.git
 	private WebElement searchTextField;
-	
+
 	public WebElement getSearchTextField() {
 		return searchTextField;
 	}
+
+	@FindBy(xpath = "//a[text()='men']")
+	private WebElement menCategory;
+	
+	  public WebElement getMenCategory() {
+	        return menCategory;
+	    }
+
 
 }

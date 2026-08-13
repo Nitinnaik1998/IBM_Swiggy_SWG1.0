@@ -3,13 +3,33 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="AnjaliTestCases.EndToEndTestCases">
+=======
+      <class name="package1.VerifyLogo">
+      <class name="package_2.TestScript3_Smoke">
+      <class name="AnjaliTestCases.IntegrationTestCases">
+      <class name="package_2.TestScript1_Smoke">
+
+      <class name="package1.NykaTest">
+
+>>>>>>> master
         <methods>
           <include name="verifyCompleteCustomerShoppingJourney"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
+<<<<<<< HEAD
           <include name="verifyIncreaseProductQuantity"/>
+=======
+          <include name="configBS"/>
+          <include name="VerifyProductSorting"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- package_2.TestScript3_Smoke -->
+          <include name="verifyScrollAndAddToBag"/>
+>>>>>>> master
           <include name="verifySwitchBackToParentWindow"/>
           <include name="verifySearchToCartFlow"/>
           <include name="configAC"/>
@@ -18,9 +38,28 @@
           <include name="verifyChildWindow"/>
           <include name="verifyCompleteShoppingBagFlow"/>
           <include name="configAS"/>
+<<<<<<< HEAD
           <include name="verifyOpenCartAfterAddingProduct"/>
         </methods>
       </class> <!-- AnjaliTestCases.EndToEndTestCases -->
+=======
+          <include name="verifyNykaaLogoTest"/>
+        </methods>
+      </class> <!-- package1.VerifyLogo -->
+      </class> <!-- AnjaliTestCases.IntegrationTestCases -->
+          <include name="Verifyproductsearch"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- package_2.TestScript1_Smoke -->
+
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- package1.NykaTest -->
+
+>>>>>>> master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

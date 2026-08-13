@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-13T12:46:42 IST" name="Default suite" finished-at="2026-08-13T12:50:09 IST" duration-ms="206270">
+  <suite started-at="2026-08-13T15:33:18 IST" name="Default suite" finished-at="2026-08-13T15:34:01 IST" duration-ms="42429">
     <groups>
     </groups>
-    <test started-at="2026-08-13T12:46:42 IST" name="Default test" finished-at="2026-08-13T12:50:09 IST" duration-ms="206270">
-      <class name="package_2.TestScript5_Smoke">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:46:42 IST" name="configBS" finished-at="2026-08-13T12:46:42 IST" duration-ms="35" status="PASS">
+    <test started-at="2026-08-13T15:33:18 IST" name="Default test" finished-at="2026-08-13T15:34:01 IST" duration-ms="42429">
+      <class name="package_2.TestScript3_Integration">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:18 IST" name="configBS" finished-at="2026-08-13T15:33:18 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:46:43 IST" name="configBC" finished-at="2026-08-13T12:46:48 IST" duration-ms="5849" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:18 IST" name="configBC" finished-at="2026-08-13T15:33:23 IST" duration-ms="4342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:46:49 IST" name="configBM" finished-at="2026-08-13T12:48:49 IST" duration-ms="120540" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:23 IST" name="configBM" finished-at="2026-08-13T15:33:37 IST" duration-ms="14414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="VerifyInvalidProductSearch()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:48:49 IST" name="VerifyInvalidProductSearch" finished-at="2026-08-13T12:50:06 IST" duration-ms="77068" status="PASS">
+        <test-method signature="VerifyProductRating()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:37 IST" name="VerifyProductRating" finished-at="2026-08-13T15:33:58 IST" duration-ms="20626" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyInvalidProductSearch -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:50:06 IST" name="configAM" finished-at="2026-08-13T12:50:06 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- VerifyProductRating -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:58 IST" name="configAM" finished-at="2026-08-13T15:33:58 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:50:06 IST" name="configAC" finished-at="2026-08-13T12:50:09 IST" duration-ms="2585" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:33:58 IST" name="configAC" finished-at="2026-08-13T15:34:01 IST" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript5_Smoke@77c2494c]" started-at="2026-08-13T12:50:09 IST" name="configAS" finished-at="2026-08-13T12:50:09 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:package_2.TestScript3_Integration@77c2494c]" started-at="2026-08-13T15:34:01 IST" name="configAS" finished-at="2026-08-13T15:34:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- package_2.TestScript5_Smoke -->
+      </class> <!-- package_2.TestScript3_Integration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
